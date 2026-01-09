@@ -1,3 +1,5 @@
+https://giscus.app/zh-CN
+
 ## 1. 准备一个 github 仓库
 
 > 新建 或 已存在 的库都可以
