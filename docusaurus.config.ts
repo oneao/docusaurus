@@ -200,9 +200,9 @@ const config: Config = {
       },
     },
     algolia: {
-      appId: 'RYGTTZG9CJ',
-      apiKey: 'b64300feec6e0441a508d8560efc4a03',
-      indexName: 'docusaurus_docs',
+      appId: '4IBAG5TBY3',
+      apiKey: 'c2d2e67295117b9bea79946f285bb128',
+      indexName: 'docusaurus',
     },
     tableOfContents: {
       minHeadingLevel: 2,
