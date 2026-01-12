@@ -201,9 +201,9 @@ const config: Config = {
       },
     },
     algolia: {
-      appId: 'Z556HGKXN4',
-      apiKey: '366d4ff37874e668c6441a0354c60643',
-      indexName: 'docusaurus_web_pages',
+      appId: 'OQQO4TVA7K',
+      apiKey: '14c39b25f844e251a0d18938c676e5ad',
+      indexName: 'docusaurus',
     },
     tableOfContents: {
       minHeadingLevel: 2,
