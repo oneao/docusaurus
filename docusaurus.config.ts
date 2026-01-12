@@ -202,7 +202,7 @@ const config: Config = {
     },
     algolia: {
       appId: 'Z556HGKXN4',
-      apiKey: 'c1b284ae7874c95e301a368f19758cd9',
+      apiKey: '366d4ff37874e668c6441a0354c60643',
       indexName: 'docusaurus_web_pages',
     },
     tableOfContents: {
