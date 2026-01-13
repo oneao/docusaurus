@@ -104,6 +104,11 @@ const config: Config = {
               label: 'Uniapp',
               sidebarId: 'UniappSidebar',
             },
+            {
+              type: 'docSidebar',
+              label: 'Golang',
+              sidebarId: 'GolangSidebar',
+            },
           ],
         },
         {
