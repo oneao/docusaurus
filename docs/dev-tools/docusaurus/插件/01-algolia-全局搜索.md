@@ -379,3 +379,9 @@ ALGOLIA_API_KEY=xxx
   }
 }
 ```
+
+然后运行命令
+
+```bash
+docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
+```
