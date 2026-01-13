@@ -165,6 +165,8 @@ new Crawler({
   apiKey: 'YOUR_API_KEY',
   rateLimit: 8,
   maxDepth: 10,
+  // 每天0点爬取一次
+  schedule: 'every 1 day at 12:00 am',
   startUrls: ['https://YOUR_WEBSITE_URL/'],
   sitemaps: ['https://YOUR_WEBSITE_URL/sitemap.xml'],
   ignoreCanonicalTo: true,
@@ -265,6 +267,8 @@ new Crawler({
 })
 ```
 
+> 注意：`schedule` 现在是每天0点自动爬取，表达式参考 https://www.algolia.com/doc/tools/crawler/apis/configuration/schedule?utm_medium=page_link&utm_source=dashboard
+
 修改成功后重新爬虫
 
 ![alt text](assets/1768268599674.png)
@@ -280,6 +284,7 @@ new Crawler({
 成功后，进入网站进行搜索即可
 
 ### 自定义爬虫（Docker）
+
 服务器上安装 `jq` 解析 `json` 文件
 
 ```bash
@@ -385,3 +390,9 @@ ALGOLIA_API_KEY=xxx
 ```bash
 docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
 ```
+
+> 报错：algoliasearch.exceptions.RequestException: Method not allowed with this API key
+> 这个问题就是权限不够，需要使用 `Admin API Key`
+
+如果出现下面页面的内容即 **代表成功**
+![alt text](assets/1768270868679.png)

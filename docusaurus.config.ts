@@ -60,6 +60,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+
+          blogSidebarTitle: 'oneao 博客',
         },
         theme: {
           customCss: './src/css/custom.css',
