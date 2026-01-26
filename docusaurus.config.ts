@@ -163,6 +163,11 @@ const config: Config = {
               label: 'SqlServer',
               sidebarId: 'SqlServerSidebar',
             },
+            {
+              type: 'docSidebar',
+              label: 'Redis',
+              sidebarId: 'RedisSidebar',
+            },
           ],
         },
         {
