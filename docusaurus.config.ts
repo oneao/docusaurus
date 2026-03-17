@@ -109,6 +109,11 @@ const config: Config = {
               label: 'Golang',
               sidebarId: 'GolangSidebar',
             },
+            {
+              type: 'docSidebar',
+              label: 'Python',
+              sidebarId: 'PythonSidebar',
+            },
           ],
         },
         {
